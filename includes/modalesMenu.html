@@ -1,0 +1,175 @@
+  <form action="form.php" method="post">
+    <div class="modal fade" id="mostrarmodal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-fluid">
+            <div class="up-margin">
+                <section class="section pb-5">
+                    <div class="row">
+                         <!--Grid column-->
+                        <div class="col-lg-5 mb-4">
+                            <!--Form with header-->
+                            <div  class="card">
+                                <div class="card-body">
+                                <!--Header-->
+                                    <div style="background-color: #071954 !important;" class="form-header blue accent-1">
+                                        <h3><i class="fa fa-envelope"></i> Escribenos</h3>
+                                    </div>
+                                    <br>
+                                    <!--Body-->                            
+                                        <div class="md-form">
+                                            <i class="fa fa-user prefix grey-text"></i>
+                                            <input  required name="nombre" type="text" id="nombre" class="form-control validate">
+                                            <label data-error="Error" data-success="Correcto" for="nombre">Nombre</label>
+                                        </div>
+
+                                        <div class="md-form">
+                                            <i class="fa fa-envelope prefix grey-text"></i>
+                                            <input required name="email" type="email" id="email" class="form-control validate">
+                                            <label data-error="Error" data-success="Correcto" for="email">Correo</label>
+                                        </div>
+
+                                        <div class="md-form">
+                                            <i class="fa fa-tag prefix grey-text"></i>
+                                            <input required name="asunto" type="text" id="asunto" class="form-control validate">
+                                            <label data-error="Error" data-success="Correcto" for="asunto">Titulo</label>
+                                        </div>
+
+                                        <div class="md-form">
+                                            <i class="fa fa-pencil prefix grey-text"></i>
+                                            <textarea required name="mensaje" id="mensaje" class="md-textarea"></textarea>
+                                            <label data-error="Error" data-success="Correcto" for="mensaje">Mensaje</label>
+                                        </div>
+
+                                        <div class="text-center">
+                                        <button id="claro5" type="submit" class="btn btn-blue-grey btn-rounded">Enviar<i class="fa fa-paper-plane-o ml-1"></i></button>
+                                        <button type="button" class="btn btn-danger btn-rounded" data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                            </div>
+                            <!--Form with header-->
+                        </div>
+                        <div class="col-lg-7">
+                            <!--Google map-->
+                            <div class="z-depth-1-half">
+                                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.97959854002!2d-67.0316134857058!3d10.343516169864344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a8ce3f7d99dc3%3A0x6d5a3422fe5c58f1!2sCentro+Comercial+La+Macarena!5e0!3m2!1ses-419!2sve!4v1505242909065" width="700" height="450" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>    
+    </div>
+</form>
+
+<form action="form.php" method="post">  
+<!--Modal: Login / Register Form-->
+    <div class="modal fade" id="mostrarmodal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog cascading-modal" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Modal cascading tabs-->
+                <div class="modal-c-tabs">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs tabs-2 light-blue darken-3" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fa fa-user mr-1"></i>Iniciar Sesión</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fa fa-user-plus mr-1"></i>Registrarse</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panels -->
+                    <div class="tab-content">
+                        <!--Panel 7-->
+                        <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+                            <!--Body-->
+                            <div class="modal-body mb-1">
+                                <div class="md-form form-sm">
+                                    <i class="fa fa-envelope prefix"></i>
+                                    <input type="email" id="form22" class="form-control validate">
+                                    <label data-error="wrong" data-success="right">Correo</label>
+                                </div>
+
+                                <div class="md-form form-sm">
+                                    <i class="fa fa-lock prefix"></i>
+                                    <input type="password" id="form23" class="form-control validate">
+                                    <label data-error="wrong" data-success="right">Contraseña</label>
+                                </div>
+                                <div class="text-center mt-2">
+                                    <a href="#" class="btn btn-info btn-rounded">Iniciar (inhabilitado)<i class="fa fa-sign-in ml-1"></i></a>
+                                </div>
+                            </div>
+                            <!--Footer-->
+                            <div class="modal-footer">
+                                <div class="options text-center text-md-right mt-1">
+                                    <p>¿No estas registrado? ve a registrarse</p>
+                                    <p>¿Olvidaste Tu <a href="#" class="blue-text">contraseña?</a></p>
+                                </div>
+                                <button type="button" class="btn btn-outline-info waves-effect ml-auto btn-rounded" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                        <!--/.Panel 7-->
+                        <!--Panel 8-->
+                        <div class="tab-pane fade" id="panel8" role="tabpanel">
+                            <!--Body-->
+                            <div class="modal-body">
+                                <div class="md-form form-sm">
+                                    <i class="fa fa-user-circle prefix"></i>
+                                    <input type="email" id="0" class="form-control validate">
+                                    <label data-error="wrong" data-success="right">Nombre</label>
+                                </div>
+
+                                <div class="md-form form-sm">
+                                    <i class="fa fa-user-circle prefix"></i>
+                                    <input type="password" id="1" class="form-control validate">
+                                    <label data-error="wrong" data-success="right">Apellido</label>
+                                </div>
+
+                                <div class="md-form form-sm">
+                                    <i class="fa fa-id-card-o prefix"></i>
+                                    <input type="password" id="2" class="form-control validate">
+                                    <label data-error="wrong" data-success="right">Cédula de Identidad</label>
+                                </div>
+                            
+                                <div class="md-form form-sm">
+                                    <i class="fa fa-envelope prefix"></i>
+                                    <input type="email" id="3" class="form-control validate">
+                                    <label data-error="wrong" data-success="right">Correo</label>
+                                </div>
+
+                                <div class="md-form form-sm">
+                                    <i class="fa fa-lock prefix"></i>
+                                    <input type="password" id="4" class="form-control validate">
+                                    <label data-error="wrong" data-success="right">Contraseña</label>
+                                </div>
+
+                                <div class="md-form form-sm">
+                                    <i class="fa fa-lock prefix"></i>
+                                    <input type="password" id="5" class="form-control validate">
+                                    <label data-error="wrong" data-success="right">Repetir Contraseña</label>
+                                </div>
+                            
+                                <div class="text-center form-sm mt-2">
+                                    <a href="#" class="btn btn-info btn-rounded">Registrarse (inhabilitado) <i class="fa fa-sign-in ml-1"></i></a>
+                                </div>
+
+                            </div>
+                            <!--Footer-->
+                            <div class="modal-footer">
+                                <div class="options text-right">
+                                    <p class="pt-1">¿Ya tienes una Cuenta? Ve a Iniciar Sesión</p>
+                                </div>
+                                <button type="button" class="btn btn-outline-info waves-effect ml-auto btn-rounded" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                        <!--/.Panel 8-->
+                    </div>
+
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+    <!--Modal: Login / Register Form-->              
+</form>

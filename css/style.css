@@ -1,0 +1,349 @@
+.up-margin
+{
+	margin-top: 90px;
+}
+
+/*BEGIN CARUSEL INDEX*/
+.carousel-caption > a
+{
+	color:#000;
+}
+
+.carousel .carousel-control-next-icon, .carousel .carousel-control-prev-icon
+{
+	background-color: #071954; 
+	border-radius: 50px;
+}
+
+.x
+{
+	color: black;
+}
+/*END CARUSEL INDEX*/
+
+/* BEGIN NAVBAR*/
+
+/*Begin style send*/
+.result
+{
+	justify-content: center;
+	margin-top: 110px;
+}
+
+/*End style send*/
+
+.StyleS input[type="search"]
+{
+	width: 45px; /*ancho por defecto*/
+	/*background: #ededed url('search-icon.png') no-repeat 9px center; /*icono lupa no funciona*/
+	padding: 9px 10px 9px 32px;
+	border-radius: 15em;
+	-webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+	-moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+	-o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+	transition: all .5s; /* transición de .5seg a todos los elementos*/
+	outline: none; /* ocultar el fucos automático de los input */
+}
+
+.StyleS input[type="search"]:focus
+{
+    width: 130px; /*tamaño del boton buscar al hacer click*/
+    padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+    color: #000;
+    background-color: #FFF;
+}
+
+.logoMenuH
+{
+    height: 35px;width: 100px;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #090303;
+}
+
+.bg-primary {
+    background-color: white !important;
+}
+#bg-color-white
+{
+	background-color: white !important;
+}
+
+#bg-Button
+{
+	background-color: #071954;
+}
+.nav-link:hover
+{
+    background-color: #071954;
+}
+
+#clase1,#clase2,#clase3,#clase4,#clase5,#clase6
+{
+color: black;
+}
+
+.navbar-toggler
+{
+	background-color: #071954;
+}
+
+.map
+{
+	border-radius: 10px;
+}
+
+/*END NAVBAR*/
+
+/*SOFTWARE*/
+
+#oscuro,#oscuro1,#oscuro2,#oscuro3,#oscuro4,#oscuro5
+{
+	background-color:#071954;
+}
+
+#claro, #claro1, #claro2, #claro3,#claro4,#claro5
+{
+	background-color:#2196F3;
+}
+
+#annual,#annual1,#annual2,#annual3,#annual4,#annual5
+{
+	font-size: 32px;color:#071954;
+}
+
+/*SOFTWARE*/
+
+/*BEGIN ABOUT US*/
+
+#bgColor
+{
+	background-color: #2196F3;
+}
+
+.fontTitle
+{
+	font-size: 100px;
+}
+
+.ClAbout
+{
+	font-size: 20px;
+	color: white;
+	text-align: justify;
+}
+
+.margin-upH
+{
+	margin-top: 100px;
+}
+
+/*END ABOUT US*/
+
+/*BEGIN HARDWARE*/
+
+.colorl
+{
+	color: black;
+}
+
+#bgColorH,#bgColorH1,#bgColorH2,#bgColorH3,#bgColorH4,#bgColorH5
+{
+	background-color: #2196F3;	
+}
+
+/*END HARDWARE*/
+
+
+/*BEGIN FOOTER*/
+
+#equis
+{
+	font-size: 32px;color:#071954;
+}
+
+#emir
+{
+	color:#6667B2;
+}
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 20px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+
+.footer-icons a:hover
+{
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+;
+}
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+	display: block;
+	width: 100%;
+	margin-bottom: 40px;
+	text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+/* END FOOTER*/
